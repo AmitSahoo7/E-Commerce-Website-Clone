@@ -1,0 +1,72 @@
+.carousel3-wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-image: url("https://thumb.ac-illust.com/85/85219efa7a16e939f2880634d83dea35_t.jpeg");
+
+
+}
+
+.carousel3-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+
+}
+
+.carousel3-slick-next,
+.carousel3-slick-prev {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel3-slick-next {
+    margin-left: 10px;
+}
+
+.carousel3-slick-prev {
+    margin-right: 10px;
+}
+
+.carousel3-slick-next i,
+.carousel3-slick-prev i {
+    color: black;
+    font-size: 24px;
+}
+
+.carousel3-slick-next.disabled i,
+.carousel3-slick-prev.disabled i {
+    color: gray;
+}
+
+.carousel3-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.carousel3-slider-container {
+    position: relative;
+}
+
+.carousel3-slide {
+    padding: 10px;
+    /* background-image: url("https://thumb.ac-illust.com/85/85219efa7a16e939f2880634d83dea35_t.jpeg"); */
+}
+
+.carousel3-slide img {
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+
+.carousel3-slide-text {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    color: black;
+}

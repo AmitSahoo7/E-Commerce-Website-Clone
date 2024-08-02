@@ -1,0 +1,200 @@
+/* Modal overlay to cover the entire screen */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Modal content box */
+.modal-content {
+  background-color: white;
+  /* white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+/* Close button */
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.heading-font {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.header1 {
+  background-color: #fff;
+  justify-content: flex-start;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.body {
+  display: flex;
+
+}
+
+.sub-body {
+  width: 50%;
+  margin: 20px 0;
+  padding: 0px 30px;
+}
+
+.head {
+  margin-bottom: 10px;
+}
+
+.reset-password {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.mg-16 {
+  margin: 16px 0;
+}
+
+.dsp-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* .mg-8 {
+    margin: 8px;
+  } */
+.mg-18 {
+  margin: 10px 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pd-4 {
+  padding: 4px;
+}
+
+.inp {
+  width: 92%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.wt {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.bttns {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.btns-signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: #000;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.btns-signin .icon {
+  margin-right: 10px;
+}
+
+.terms {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.terms a {
+  color: #007bff;
+}
+
+.pd-15 {
+  padding: 15px;
+}
+
+.jc-ct {
+  justify-content: center;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.pd {
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+
+.svgicon {
+  width: 30px;
+  height: 30px;
+
+}
+
+#pok {
+  border-right: 1px solid black;
+}
+
+/* .create-account-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+  } */
+.fx-co {
+  flex-direction: column;
+}
+
+.sz {
+  height: 30px;
+}
+
+.mg-lt {
+  margin-left: 1000px;
+}
+
+.list-div {
+  width: 100%;
+  height: 60%;
+}

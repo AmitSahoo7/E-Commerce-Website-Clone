@@ -1,0 +1,48 @@
+.back-to-top-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.back-to-top {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.403);
+  transition: width 0.5s ease, border-radius 0.5s ease;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.back-to-top .arrow {
+  margin-left: 36px;
+  opacity: 1;
+  transition: margin-left 0.5s ease, margin-right 0.5s ease;
+}
+
+.back-to-top .text {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.back-to-top:hover {
+  width: 140px;
+  border-radius: 40px;
+}
+
+.back-to-top:hover .text {
+  opacity: 1;
+}
+
+.back-to-top:hover .arrow {
+  margin-left: 0;
+  margin-right: 20px;
+}

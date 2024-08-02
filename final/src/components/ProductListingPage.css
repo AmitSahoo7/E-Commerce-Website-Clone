@@ -1,0 +1,21 @@
+.product-listing-page {
+  padding: 20px;
+}
+
+.product-listing-page h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-listing-page .shop-all {
+  color: #00f;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

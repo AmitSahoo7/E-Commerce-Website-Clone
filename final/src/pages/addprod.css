@@ -1,0 +1,74 @@
+.adding form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: wheat;
+  border: 5px solid peru;
+  box-shadow: 0 0 10px red;
+  display: flex;
+  flex-direction: column;
+}
+
+.adding input,
+.adding textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 3px solid greenyellow;
+}
+
+#ad {
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#ad:hover {
+  background-color: brown;
+  color: aqua;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .adding form {
+    max-width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-width: 3px;
+  }
+
+  .adding input,
+  .adding textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-width: 2px;
+  }
+
+  #ad {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .adding form {
+    margin: 10px;
+    padding: 5px;
+    border-width: 2px;
+  }
+
+  .adding input,
+  .adding textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border-width: 1px;
+  }
+
+  #ad {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+}
