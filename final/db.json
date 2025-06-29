@@ -318,5 +318,57 @@
       "password": "asu123"
     }
   ],
-  "cartItems": []
+  "cartItems": [
+    {
+      "id": "15",
+      "title": "Wells Leather Sofa (72\"-105\")",
+      "price": "   2,558.00",
+      "originalPrice": "      3,198.00",
+      "image": "https://cb.scene7.com/is/image/Crate/F20_101_A_54_Hor_002/   web_plp_card   /240722123607/F20_101_A_54_Hor_002.jpg",
+      "colors": [
+        "#e1e0d9",
+        "#d1ccc2",
+        "#a19b8d",
+        "#50504d"
+      ],
+      "rating": {
+        "rate": 4.1,
+        "count": 110
+      }
+    },
+    {
+      "id": "1",
+      "title": "Oceanside Low 3-Piece L-Shaped Sectional Sofa",
+      "price": "   4,497.00",
+      "image": "https://cb.scene7.com/is/image/Crate/CB_SP22_CO_5_302_Hor_version_1/   web_plp_card   /240722123639/CB_SP22_CO_5_302_Hor_version_1.jpg",
+      "colors": [
+        "#e0ddd3",
+        "#d4c9be",
+        "#a39686",
+        "#80807e"
+      ],
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "bestSeller": true
+    },
+    {
+      "id": "13",
+      "title": "Oceanside Low 3-Piece L-Shaped Sectional Sofa",
+      "price": "   4,497.00",
+      "image": "https://cb.scene7.com/is/image/Crate/CB_SP22_CO_5_302_Hor_version_1/   web_plp_card   /240722123639/CB_SP22_CO_5_302_Hor_version_1.jpg",
+      "colors": [
+        "#e0ddd3",
+        "#d4c9be",
+        "#a39686",
+        "#80807e"
+      ],
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      },
+      "bestSeller": true
+    }
+  ]
 }
