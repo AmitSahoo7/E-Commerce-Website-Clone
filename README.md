@@ -16,6 +16,9 @@ A React-based e-commerce website inspired by Crate & Barrel, featuring product l
 ![Homepage 1](final/screenshots/homepage1.png)
 ![Homepage 2](final/screenshots/homepage2.png)
 
+### Footer
+![Footer](final/screenshots/footer.png)
+
 ### Product Listing
 ![Products Page 1](final/screenshots/Productspage1.png)
 ![Products Page 2](final/screenshots/Productspage2.png)
@@ -29,8 +32,6 @@ A React-based e-commerce website inspired by Crate & Barrel, featuring product l
 ### Login & Signup
 ![Login & Signup](final/screenshots/Login:Signup.png)
 
-### Footer
-![Footer](final/screenshots/footer.png)
 
 ## Getting Started
 
