@@ -14,23 +14,23 @@ A React-based e-commerce website inspired by Crate & Barrel, featuring product l
 
 ### Homepage
 ![Homepage 1](final/screenshots/homepage1.png)
-![Homepage 2](./screenshots/homepage2.png)
+![Homepage 2](final/screenshots/homepage2.png)
 
 ### Product Listing
-![Products Page 1](./screenshots/Productspage1.png)
-![Products Page 2](./screenshots/Productspage2.png)
+![Products Page 1](final/screenshots/Productspage1.png)
+![Products Page 2](final/screenshots/Productspage2.png)
 
 ### Product Detail
-![Product Detail Page](./screenshots/ProductDetailpage.png)
+![Product Detail Page](final/screenshots/ProductDetailpage.png)
 
 ### Cart Page
-![Cart Page](./screenshots/CartPage.png)
+![Cart Page](final/screenshots/CartPage.png)
 
 ### Login & Signup
-![Login & Signup](./screenshots/Login:Signup.png)
+![Login & Signup](final/screenshots/Login:Signup.png)
 
 ### Footer
-![Footer](./screenshots/footer.png)
+![Footer](final/screenshots/footer.png)
 
 ## Getting Started
 
